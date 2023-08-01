@@ -1,10 +1,10 @@
-- id: node-lint
-  name: node-lint
-  entry: lib/run-node-lint.sh
+- id: npm-lint
+  name: npm-lint
+  entry: lib/run-npm-lint.sh
   language: 'script'
   description: ""
-- id: node-test
-  name: node-test
-  entry: lib/run-node-test.sh
+- id: npm-test
+  name: npm-test
+  entry: lib/run-npm-test.sh
   language: 'script'
   description: ""
