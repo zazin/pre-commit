@@ -1,0 +1,10 @@
+- id: node-lint
+  name: node-lint
+  entry: lib/run-node-lint.sh
+  language: 'script'
+  description: ""
+- id: node-test
+  name: node-test
+  entry: lib/run-node-test.sh
+  language: 'script'
+  description: ""
